@@ -1,0 +1,72 @@
+/* src/components/DateInput.css */
+
+.date-input-container {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-width: 800px;
+    /* Tăng chiều rộng tối đa */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.date-input-container h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    /* Kích thước font chữ cho tiêu đề */
+    color: #333;
+}
+
+.date-input-container p.note {
+    color: #666;
+    font-size: 0.9em;
+    /* Kích thước font chữ nhỏ hơn cho ghi chú */
+    margin: 10px 0;
+    line-height: 1.4;
+    /* Khoảng cách dòng để dễ đọc hơn */
+    text-align: left;
+    /* Căn lề trái */
+    padding-left: 10px;
+    /* Thêm khoảng cách từ lề trái */
+    line-height: 1.6;
+    /* Giãn dòng */
+
+}
+
+.date-input-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.date-input-container input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.date-input-container input::-webkit-calendar-picker-indicator {
+    filter: invert(0.5);
+}
+
+.search-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+    background-color: #0056b3;
+}
