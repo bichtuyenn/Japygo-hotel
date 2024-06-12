@@ -66,10 +66,15 @@ const WeatherTable = ({ weatherData, activitySuggestions }) => {
         return activityWithLinks;
     }
 
+    function isTimeInRange(time) {
+        const hours = time.getHours();
+        return hours >= 7 && hours <= 22; // Lọc từ 7h sáng đến 10h tối
+    }
+
     return (
         <div className="weather-table-container">
             <h2>Kết quả</h2>
-            <br></br>
+            <br />
             <table className="weather-table">
                 <thead>
                     <tr>
@@ -80,7 +85,10 @@ const WeatherTable = ({ weatherData, activitySuggestions }) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {weatherData.map((item, index) => {
+                    {weatherData.filter(item => {
+                        const itemDate = new Date(item.dt * 1000);
+                        return isTimeInRange(itemDate);
+                    }).map((item, index) => {
                         const itemDate = new Date(item.dt * 1000);
                         const hours = itemDate.getHours();
                         const minutes = itemDate.getMinutes();
@@ -99,7 +107,7 @@ const WeatherTable = ({ weatherData, activitySuggestions }) => {
                                     <img src={`https://openweathermap.org/img/wn/${item.weather[0].icon}.png`} alt={item.weather[0].description} />
                                     {weatherDescriptionMap[item.weather[0].description] || item.weather[0].description}
                                 </td>
-                                <td>{temp}</td>
+                                <td>{temp.toFixed(2)}</td>
                                 <td dangerouslySetInnerHTML={{ __html: activityWithLinks }}></td>
                             </tr>
                         );
