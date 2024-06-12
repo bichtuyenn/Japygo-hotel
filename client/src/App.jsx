@@ -24,7 +24,9 @@ import Contact from "./components/contact/Contact"
 import Blog1 from "./components/blog/Blog1"
 import Blog2 from "./components/blog/Blog2"
 import Blog3 from "./components/blog/Blog3"
-import WeatherActivitySuggestions from './components/WeatherActivitySuggestions'; // Import the new component
+import WeatherActivitySuggestions from './components/WeatherActivitySuggestions';
+import Chatbot from "./components/Chatbot";
+
 function App() {
 	return (
 		<AuthProvider>
@@ -36,12 +38,12 @@ function App() {
 						<Route path="/edit-room/:roomId" element={<EditRoom />} />
 						<Route path="/existing-rooms" element={<ExistingRooms />} />
 						<Route path="/add-room" element={<AddRoom />} />
-						<Route path="/blog" element={<Blog/>}/>
-						<Route path="/contact" element={<Contact/>}/>
-						<Route path="/blog-1" element={<Blog1/>}/>
-						<Route path="/blog-2" element={<Blog2/>}/>
-						<Route path="/blog-3" element={<Blog3/>}/>
-						
+						<Route path="/blog" element={<Blog />} />
+						<Route path="/contact" element={<Contact />} />
+						<Route path="/blog-1" element={<Blog1 />} />
+						<Route path="/blog-2" element={<Blog2 />} />
+						<Route path="/blog-3" element={<Blog3 />} />
+
 						<Route
 							path="/book-room/:roomId"
 							element={
@@ -63,8 +65,9 @@ function App() {
 						<Route path="/profile" element={<Profile />} />
 						<Route path="/logout" element={<FindBooking />} />
 					</Routes>
+					<Chatbot />
+					<Footer />
 				</Router>
-				<Footer />
 			</main>
 		</AuthProvider>
 	)
