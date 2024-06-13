@@ -49,7 +49,10 @@
     color: rgb(169,77,123);
 }
 .blog-post img{
-    width: 98vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 .blog-post h6{
     text-decoration:underline;

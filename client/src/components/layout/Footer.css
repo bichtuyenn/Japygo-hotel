@@ -1,0 +1,41 @@
+.footer h4 {
+    margin-bottom: 10px;
+
+    font-weight: bold;
+}
+
+.footer p {
+    text-align: left;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer li {
+    margin-bottom: 5px;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+
+    text-decoration: underline;
+
+}
+
+.footer .home:hover {
+    text-decoration: none;
+}
+
+.footer-height {
+    height: 60vh;
+}
+
+.footer-height-hidden {
+    height: 30vh;
+}

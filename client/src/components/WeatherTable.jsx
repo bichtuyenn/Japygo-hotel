@@ -53,8 +53,18 @@ const WeatherTable = ({ weatherData, activitySuggestions }) => {
 
     function createActivityLinks(activity) {
         const linkMap = {
-            'Bạch Dinh': 'https://vi.wikipedia.org/wiki/Bạch_Dinh_(Vũng_Tàu)',
-            'Khu du lịch Hồ Mây': 'https://vi.wikipedia.org/wiki/Hồ_Mây'
+            'bãi trước': 'http://localhost:5173/baitruoc',
+            'Tượng Chúa Kitô Vua': 'http://localhost:5173/chuakito',
+            'Hải đăng Vũng Tàu': 'http://localhost:5173/haidang',
+            'chợ Xóm Lưới': 'http://localhost:5173/choxomluoi',
+            'Soho Coffee': 'http://localhost:5173/soho',
+            'Bạch Dinh': 'http://localhost:5173/bachdinh',
+            'Tắm biển': 'http://localhost:5173/baitruoc',
+            'Gành Hào': 'http://localhost:5173/ganhhao',
+            'Ốc thiên nhiên': 'http://localhost:5173/octhiennhien',
+            'Lotte Mart': 'http://localhost:5173/lotte',
+            'spa': 'http://localhost:5173/spa',
+            'lặn ngắm san hô': 'http://localhost:5173/lanngam'
         };
 
         let activityWithLinks = activity;

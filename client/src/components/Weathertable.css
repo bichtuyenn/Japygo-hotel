@@ -33,3 +33,10 @@
     vertical-align: middle;
     margin-right: 5px;
 }
+
+.weather-table td a {
+    color: #007bff;
+    text-decoration: underline;
+    /* Gạch chân liên kết */
+    transition: color 0.3s;
+}

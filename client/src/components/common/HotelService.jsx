@@ -15,11 +15,11 @@ const HotelService = () => {
 	return (
 		<>
 			<div className="mb-2">
-				<Header title={"Our Services"} />
+				<Header title={""} />
 
 				<Row className="mt-4">
 					<h4 className="text-center">
-						Services at <span className="hotel-color"> JAPY Go </span>Hotel  
+						Services at <span className="hotel-color"> JAPY Go </span>Hotel
 					</h4>
 				</Row>
 				<hr />

@@ -85,7 +85,8 @@ const ExistingRooms = () => {
 				<p>Loading existing rooms</p>
 			) : (
 				<>
-					<section className="mt-5 mb-5 container">
+					<section className="mt-5 mb-5 container" style={{ height: "57vh" }}
+					>
 						<div className="d-flex justify-content-between mb-3 mt-5">
 							<h2>Existing Rooms</h2>
 						</div>

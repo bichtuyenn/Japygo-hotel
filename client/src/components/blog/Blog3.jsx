@@ -4,12 +4,12 @@ import styles from "../blog/css/blog3.css"
 // import Img from "../../assets/images/anhbia.png"
 const Blog3 = () => {
 	return (
-		<section>
+		<section className="container mt-5">
             <div className="blog3">
                 <h1>Khám Phá Trải Nghiệm Đặt Phòng Tuyệt Vời Cùng JAPY Go Hotel</h1>
                 <hr />
       <p>Chào mừng đến với <b>JAPY Go Hotel</b> - điểm đến lý tưởng cho mọi hành trình của bạn! Chúng tôi tự hào là một trong những điểm đến hàng đầu cho du lịch và kinh doanh, mang đến cho khách hàng những trải nghiệm đặt phòng không thể quên.</p>
-      <img src="https://lirp.cdn-website.com/360bb70e/dms3rep/multi/opt/0001-640w.jpg" alt="" />
+      <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1440,h_750/https://vungtau.viashotels.com/wp-content/uploads/2022/05/Rectangle-2772.jpg" alt="" />
       <h3>Tại sao chọn JAPY Go Hotel?</h3>
       <ul>
         <li>

@@ -24,6 +24,18 @@ import Contact from "./components/contact/Contact"
 import Blog1 from "./components/blog/Blog1"
 import Blog2 from "./components/blog/Blog2"
 import Blog3 from "./components/blog/Blog3"
+import Baitruoc from "./components/blog/Baitruoc"
+import Chuakito from "./components/blog/Chuakito"
+import Haidang from "./components/blog/Haidang"
+import Choxomluoi from "./components/blog/Choxomluoi"
+import Soho from "./components/blog/Soho"
+import Bachdinh from "./components/blog/Bachdinh"
+import Homay from "./components/blog/Homay"
+import Lanngam from "./components/blog/Lanngam"
+import Ganhhao from "./components/blog/Ganhhao"
+import Octhiennhien from "./components/blog/Octhiennhien"
+import Lotte from "./components/blog/Lotte"
+import Spa from "./components/blog/Spa"
 import WeatherActivitySuggestions from './components/WeatherActivitySuggestions';
 import Chatbot from "./components/Chatbot";
 
@@ -43,7 +55,18 @@ function App() {
 						<Route path="/blog-1" element={<Blog1 />} />
 						<Route path="/blog-2" element={<Blog2 />} />
 						<Route path="/blog-3" element={<Blog3 />} />
-
+						<Route path="/baitruoc" element={<Baitruoc />} />
+						<Route path="/chuakito" element={<Chuakito />} />
+						<Route path="/haidang" element={<Haidang />} />
+						<Route path="/choxomluoi" element={<Choxomluoi />} />
+						<Route path="/soho" element={<Soho />} />
+						<Route path="/bachdinh" element={<Bachdinh />} />
+						<Route path="/homay" element={<Homay />} />
+						<Route path="/lanngam" element={<Lanngam />} />
+						<Route path="/ganhhao" element={<Ganhhao />} />
+						<Route path="/octhiennhien" element={<Octhiennhien />} />
+						<Route path="/lotte" element={<Lotte />} />
+						<Route path="/spa" element={<Spa />} />
 						<Route
 							path="/book-room/:roomId"
 							element={
