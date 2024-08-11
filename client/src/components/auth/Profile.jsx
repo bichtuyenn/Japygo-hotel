@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import { deleteUser, getBookingsByUserId, getUser } from "../utils/ApiFunctions"
 import { useNavigate } from "react-router-dom"
 import moment from "moment"
-
+import './Profile.css'
 const Profile = () => {
 	const [user, setUser] = useState({
 		id: "",
@@ -81,7 +81,7 @@ const Profile = () => {
 			{message && <p className="text-danger">{message}</p>}
 			{user ? (
 				<div className="card p-5 mt-5" style={{ backgroundColor: "whitesmoke" }}>
-					<h4 className="card-title text-center">User Information</h4>
+					<h4 className="card-title text-center">PROFILE</h4>
 					<div className="card-body">
 						<div className="col-md-10 mx-auto">
 							<div className="card mb-3 shadow">
@@ -89,7 +89,7 @@ const Profile = () => {
 									<div className="col-md-2">
 										<div className="d-flex justify-content-center align-items-center mb-4">
 											<img
-												src="https://themindfulaimanifesto.org/wp-content/uploads/2020/09/male-placeholder-image.jpeg"
+												src="https://png.pngtree.com/png-clipart/20220509/original/pngtree-avatar-cute-girl-social-media-avatar-png-image_7689795.png"
 												alt="Profile"
 												className="rounded-circle"
 												style={{ width: "150px", height: "150px", objectFit: "cover" }}
@@ -99,12 +99,7 @@ const Profile = () => {
 
 									<div className="col-md-10">
 										<div className="card-body">
-											<div className="form-group row">
-												<label className="col-md-2 col-form-label fw-bold">ID:</label>
-												<div className="col-md-10">
-													<p className="card-text">{user.id}</p>
-												</div>
-											</div>
+											
 											<hr />
 
 											<div className="form-group row">

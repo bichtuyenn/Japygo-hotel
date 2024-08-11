@@ -1,0 +1,87 @@
+/* Overall card styling */
+.card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card-body {
+    padding: 30px;
+    padding-top: 0px;
+  }
+  
+  /* Profile image styling */
+  .rounded-circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #e0e0e0;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .col-form-label {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Unstyled list for roles */
+  .list-unstyled {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .list-unstyled li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  /* Horizontal rule styling */
+  hr {
+    border: 0;
+    height: 1px;
+    background: #e0e0e0;
+    margin: 1.5rem 0;
+  }
+  
+  /* Centered button styling */
+  .center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-danger:hover {
+    background-color: #c82333;
+  }
+  

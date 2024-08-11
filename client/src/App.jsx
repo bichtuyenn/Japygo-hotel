@@ -37,8 +37,9 @@ import Octhiennhien from "./components/blog/Octhiennhien"
 import Lotte from "./components/blog/Lotte"
 import Spa from "./components/blog/Spa"
 import WeatherActivitySuggestions from './components/WeatherActivitySuggestions';
-import Chatbot from "./components/Chatbot";
-
+import Chatbot from "./components/Chatbot"
+import MonthlyRevenue from "./components/admin/MonthlyRevenue"
+import Buffet from "./components/blog/Buffet";
 function App() {
 	return (
 		<AuthProvider>
@@ -67,6 +68,8 @@ function App() {
 						<Route path="/octhiennhien" element={<Octhiennhien />} />
 						<Route path="/lotte" element={<Lotte />} />
 						<Route path="/spa" element={<Spa />} />
+						<Route path="/revenue" element={<MonthlyRevenue />} />
+						<Route path="/buffet" element={<Buffet />} />
 						<Route
 							path="/book-room/:roomId"
 							element={

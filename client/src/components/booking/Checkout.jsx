@@ -9,7 +9,7 @@ import {
 	FaCar,
 	FaTshirt
 } from "react-icons/fa"
-
+import { Link } from "react-router-dom"
 import { useParams } from "react-router-dom"
 import { getRoomById } from "../utils/ApiFunctions"
 import RoomCarousel from "../common/RoomCarousel"
@@ -76,7 +76,7 @@ const Checkout = () => {
 														<FaTv /> Netfilx Premium
 													</li>
 													<li>
-														<FaUtensils /> Breakfast
+														<FaUtensils /> Buffet (Breakfast) <Link to={"/buffet"}className="buffet" >see more..</Link>
 													</li>
 													<li>
 														<FaWineGlassAlt /> Mini bar refreshment

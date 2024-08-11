@@ -15,15 +15,15 @@ const Home = () => {
 
 	useEffect(() => {
 		if (visible) {
-		  const timer = setTimeout(() => {
-			setVisible(false);
-		  }, 1000); 
-		  return () => clearTimeout(timer);
+			const timer = setTimeout(() => {
+				setVisible(false);
+			}, 1000);
+			return () => clearTimeout(timer);
 		}
-	  }, [visible]);
+	}, [visible]);
 
 
-	
+
 	return (
 		<section>
 			{message && <p className="popup_logout">{message}</p>}
@@ -38,7 +38,6 @@ const Home = () => {
 				<RoomCarousel />
 				<HotelService />
 				<Parallax />
-				<RoomCarousel />
 			</div>
 		</section>
 	)

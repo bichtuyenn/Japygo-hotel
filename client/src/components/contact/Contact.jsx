@@ -7,8 +7,8 @@ function Contact() {
       <hr />
       <div className="contact-info">
         <h3>Thông Tin Liên Hệ</h3>
-        <p><strong>Địa chỉ:</strong> Đường Quang Trung, Vũng Tàu</p>
-        <p><strong>Số điện thoại:</strong> 090.888.90</p>
+        <p><strong>Địa chỉ:</strong> 159 Thùy Vân, Phường Thắng Tam, Thành phố Vũng Tàu, Bà Rịa - Vũng Tàu.</p>
+        <p><strong>Số điện thoại:</strong> 0123456789</p>
         <p><strong>Email:</strong> japygohotel@gmail.com</p>
         <p>Nếu bạn có bất kỳ câu hỏi hoặc yêu cầu nào, vui lòng liên hệ với chúng tôi.</p>
       </div>

@@ -9,7 +9,6 @@ const Login = () => {
 		email: "",
 		password: ""
 	})
-
 	const navigate = useNavigate()
 	const auth = useAuth()
 	const location = useLocation()
@@ -76,8 +75,8 @@ const Login = () => {
 						Login
 					</button>
 				</div>
-				<div style={{ marginLeft: "10px"}}>
-						Don't have an account yet?<Link to={"/register"} style={{textDecoration: "underline"}}> Register</Link>
+				<div style={{ marginLeft: "10px" }}>
+					Don't have an account yet?<Link to={"/register"} style={{ textDecoration: "underline" }}> Register</Link>
 				</div>
 			</form>
 		</section>

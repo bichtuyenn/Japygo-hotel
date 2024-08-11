@@ -28,6 +28,15 @@ const Admin = () => {
 								</div>
 							</div>
 						</div>
+						<div className="col-md-12 mb-3">
+							<div className="card text-center">
+								<div className="card-body">
+									<h4 className="card-title">Monthly Revenue</h4>
+									<p className="card-text">View Revenue</p>
+									<Link to="/revenue" className="btn-hotel btn">Go to Revenue</Link>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -1,0 +1,33 @@
+.room-reviews {
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.room-reviews h3 {
+    margin-bottom: 20px;
+}
+
+.room-reviews .form-group {
+    margin-bottom: 15px;
+}
+
+.room-reviews .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.room-reviews .btn {
+    margin-top: 10px;
+}
+
+.room-reviews .list-group {
+    margin-top: 20px;
+}
+
+.room-reviews .list-group-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}

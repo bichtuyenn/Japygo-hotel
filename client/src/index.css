@@ -112,6 +112,7 @@ html {
 
 .hotel-color {
   color: rgb(169, 77, 123);
+  
 }
 
 .room-price {
@@ -265,4 +266,13 @@ h2 {
   .header-banner h1 {
     font-size: 16px;
   }
+}
+
+.navbar-nav .nav-link.active {
+  color: rgb(169, 77, 123);
+  font-weight: bold;
+}
+.buffet:hover{
+  color: rgb(169, 77, 123);
+  text-decoration: underline;
 }

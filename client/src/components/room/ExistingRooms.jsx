@@ -85,8 +85,7 @@ const ExistingRooms = () => {
 				<p>Loading existing rooms</p>
 			) : (
 				<>
-					<section className="mt-5 mb-5 container" style={{ height: "57vh" }}
-					>
+					<section className="mt-5 mb-5 container">
 						<div className="d-flex justify-content-between mb-3 mt-5">
 							<h2>Existing Rooms</h2>
 						</div>
@@ -98,7 +97,7 @@ const ExistingRooms = () => {
 
 							<Col md={6} className="d-flex justify-content-end">
 								<Link to={"/add-room"}>
-									<FaPlus /> Add Room
+<FaPlus /> Add Room
 								</Link>
 							</Col>
 						</Row>
@@ -120,10 +119,7 @@ const ExistingRooms = () => {
 										<td>{room.roomType}</td>
 										<td>{room.roomPrice}</td>
 										<td className="gap-2">
-											<Link to={`/edit-room/${room.id}`} className="gap-2">
-												<span className="btn btn-info btn-sm">
-													<FaEye />
-												</span>
+											<Link to={`/edit-room/${room.id}`} className="gap-2" style={{paddingRight:5}}>
 												<span className="btn btn-warning btn-sm ml-5">
 													<FaEdit />
 												</span>
